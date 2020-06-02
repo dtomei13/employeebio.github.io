@@ -1,0 +1,156 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+}
+
+.container
+{
+  width: 90%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.container2
+{
+    text-align: right;
+    
+    font-size: 12px;
+}
+#mainNav
+{
+    color: gray;
+}
+#mainNav ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#mainNav li
+{
+    display: inline;
+    padding: 5px 10px;
+}
+
+#mainNav a
+{
+    color: gray;
+    text-decoration: none;
+    font-size: 18;
+}
+
+#mainNav li:hover
+{
+    background: #aaa;
+}
+
+
+#mainHeader
+{
+    padding: 10px 16px;
+    border-bottom: 5px solid transparent;
+}
+
+#jumbo
+{
+    background-image: url('../images/books.jpg');
+    background-position: center center;
+    min-height: 300px;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+#jumbo2
+{
+    text-align: center;
+    font-size: 50px;
+    color: dodgerblue;
+    box-sizing: border-box;
+}
+.info
+{
+ position: relative;
+ color: grey;
+ font-size: 15px;
+}
+.info2
+{
+    position: relative;
+    top: 300px;
+    left: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+#Damani
+{
+    
+    border-top: 1px solid gray;
+    padding-top: 15px;
+  color: grey;
+  position: relative;
+  width: 80%;
+  margin: auto;
+
+  border-bottom: 1px solid gray;
+  
+}
+
+#Wayne
+{
+    padding-top: 15px;
+    color: grey;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid gray;
+  
+}
+
+
+#Mumin
+{
+    padding-top: 15px;
+    color: grey;
+    position: relative;
+    width: 80%;
+    margin: auto;
+
+   
+
+}
+
+#mainFooter
+{
+    border-top: 1px solid gray;
+    font-size: 10px;
+    background-color: rgb(231, 231, 231);
+    padding-top: 15px;
+  color: grey;
+  position: relative;
+  
+  margin: auto;
+}
+
+h2 
+{
+    color: dodgerblue;
+    font-size: 25px;
+    padding-bottom: 0px;
+}
+h3
+{
+    font-size: 25px;
+    line-height: 1.6em;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
